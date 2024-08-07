@@ -15,7 +15,7 @@ versions:
   ghec: '*'
 topics:
   - Pages
-shortTitle: Create a GitHub Pages site
+shortTitle: Create a GitHub Pages site ✨
 ---
 
 {% data reusables.pages.org-owners-can-restrict-pages-creation %}
@@ -32,7 +32,7 @@ shortTitle: Create a GitHub Pages site
 {% data reusables.repositories.initialize-with-readme %}
 {% data reusables.repositories.create-repo %}
 
-## Creating your site
+## Creating your site 📜
 
 {% data reusables.pages.must-have-repo-first %}
 
@@ -42,9 +42,9 @@ shortTitle: Create a GitHub Pages site
 {% data reusables.pages.decide-publishing-source %}
 1. Create the entry file for your site. {% data variables.product.prodname_pages %} will look for an `index.html`, `index.md`, or `README.md` file as the entry file for your site.
 
-   If your publishing source is a branch and folder, the entry file must be at the top level of the source folder on the source branch. For example, if your publishing source is the `/docs` folder on the `main` branch, your entry file must be located in the `/docs` folder on a branch called `main`.
+ℹ️   If your publishing source is a branch and folder, the entry file must be at the top level of the source folder on the source branch. For example, if your publishing source is the `/docs` folder on the `main` branch, your entry file must be located in the `/docs` folder on a branch called `main`.
 
-   If your publishing source is a {% data variables.product.prodname_actions %} workflow, the artifact that you deploy must include the entry file at the top level of the artifact. Instead of adding the entry file to your repository, you may choose to have your {% data variables.product.prodname_actions %} workflow generate your entry file when the workflow runs.
+ ⚠️  If your publishing source is a {% data variables.product.prodname_actions %} workflow, the artifact that you deploy must include the entry file at the top level of the artifact. Instead of adding the entry file to your repository, you may choose to have your {% data variables.product.prodname_actions %} workflow generate your entry file when the workflow runs.
 {% data reusables.pages.configure-publishing-source %}
 {% data reusables.repositories.sidebar-settings %}
 {% data reusables.pages.sidebar-pages %}
